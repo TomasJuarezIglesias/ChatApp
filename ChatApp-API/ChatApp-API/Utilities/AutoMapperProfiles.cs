@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using ChatApp_API.DTOs;
+using ChatApp_API.Models;
 
 namespace ChatApp_API.Utilities
 {
@@ -6,7 +8,6 @@ namespace ChatApp_API.Utilities
     {
         public AutoMapperProfiles()
         {
-            
         }
     }
 }

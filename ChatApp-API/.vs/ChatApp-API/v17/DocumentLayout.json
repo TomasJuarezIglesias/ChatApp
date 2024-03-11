@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\",
+  "WorkspaceRootPath": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\usuario\\desktop\\chatapp\\chatapp-api\\chatapp-api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\tjuar\\desktop\\chatapp\\chatapp-api\\chatapp-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\tjuar\\desktop\\chatapp\\chatapp-api\\chatapp-api\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\tjuar\\desktop\\chatapp\\chatapp-api\\chatapp-api\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\tjuar\\desktop\\chatapp\\chatapp-api\\chatapp-api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\usuario\\desktop\\chatapp\\chatapp-api\\chatapp-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\usuario\\desktop\\chatapp\\chatapp-api\\chatapp-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\tjuar\\desktop\\chatapp\\chatapp-api\\chatapp-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\usuario\\desktop\\chatapp\\chatapp-api\\chatapp-api\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\tjuar\\desktop\\chatapp\\chatapp-api\\chatapp-api\\dtos\\responseauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\dtos\\responseauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\usuario\\desktop\\chatapp\\chatapp-api\\chatapp-api\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\tjuar\\desktop\\chatapp\\chatapp-api\\chatapp-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|c:\\users\\tjuar\\desktop\\chatapp\\chatapp-api\\chatapp-api\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6FCC72F-573F-43BD-A831-437B7AA185B6}|ChatApp-API\\ChatApp-API.csproj|solutionrelative:chatapp-api\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,65 +50,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "LoginUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\DTOs\\LoginUserDTO.cs",
+              "RelativeDocumentMoniker": "ChatApp-API\\DTOs\\LoginUserDTO.cs",
+              "ToolTip": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\DTOs\\LoginUserDTO.cs",
+              "RelativeToolTip": "ChatApp-API\\DTOs\\LoginUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T13:27:20.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangePasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\DTOs\\ChangePasswordDTO.cs",
+              "RelativeDocumentMoniker": "ChatApp-API\\DTOs\\ChangePasswordDTO.cs",
+              "ToolTip": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\DTOs\\ChangePasswordDTO.cs",
+              "RelativeToolTip": "ChatApp-API\\DTOs\\ChangePasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T13:27:13.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResponseAuthentication.cs",
+              "DocumentMoniker": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\DTOs\\ResponseAuthentication.cs",
+              "RelativeDocumentMoniker": "ChatApp-API\\DTOs\\ResponseAuthentication.cs",
+              "ToolTip": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\DTOs\\ResponseAuthentication.cs",
+              "RelativeToolTip": "ChatApp-API\\DTOs\\ResponseAuthentication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T12:06:36.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ChatApp-API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ChatApp-API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwFMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T12:02:58.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ChatApp-API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Models\\User.cs",
+              "RelativeToolTip": "ChatApp-API\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T11:36:57.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AutoMapperProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Utilities\\AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Utilities\\AutoMapperProfiles.cs",
               "RelativeDocumentMoniker": "ChatApp-API\\Utilities\\AutoMapperProfiles.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Utilities\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Utilities\\AutoMapperProfiles.cs",
               "RelativeToolTip": "ChatApp-API\\Utilities\\AutoMapperProfiles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T13:43:58.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ChatApp-API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\appsettings.Development.json",
               "RelativeToolTip": "ChatApp-API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-05T13:19:18.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ChatApp-API\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ChatApp-API\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T13:18:22.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Program.cs",
-              "RelativeDocumentMoniker": "ChatApp-API\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Program.cs",
-              "RelativeToolTip": "ChatApp-API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T13:05:12.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Startup.cs",
+              "DocumentMoniker": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Startup.cs",
               "RelativeDocumentMoniker": "ChatApp-API\\Startup.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Startup.cs",
+              "ToolTip": "C:\\Users\\tjuar\\Desktop\\ChatApp\\ChatApp-API\\ChatApp-API\\Startup.cs",
               "RelativeToolTip": "ChatApp-API\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T13:05:45.211Z",
               "EditorCaption": ""
