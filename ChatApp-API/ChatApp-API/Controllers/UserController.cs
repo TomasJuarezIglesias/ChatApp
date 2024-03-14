@@ -77,35 +77,6 @@ namespace ChatApp_API.Controllers
             }
         }
 
-        [HttpPost("ChangePassword")]
-        public async Task<ActionResult> ChangePassword([FromBody] ChangePasswordDTO changePassword)
-        {
-            try
-            {
-                var claims = HttpContext.User.Claims.ToList();
-
-                var email = claims.Where(c => c.Type == "email").First().Value;
-                var userName = claims.Where(c => c.Type == "userName").First().Value;
-
-                var userDb = await context.Users.FirstAsync(u => u.UserName == userName && u.Email == email);
-
-                var actualPasswordHash = HashService.CreateHash(changePassword.ActualPassword);
-
-                if (userDb.Password != actualPasswordHash) return BadRequest();
-
-                var newPasswordHash = HashService.CreateHash(changePassword.NewPassword);
-
-                userDb.Password = newPasswordHash;
-                await context.SaveChangesAsync();
-
-                return Ok();
-            }
-            catch (Exception)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, new { message = "Internal error occurred" });
-            }
-        }
-
         [HttpGet("RefreshToken")]
         public ActionResult<ResponseAuthentication> RefreshToken()
         {
