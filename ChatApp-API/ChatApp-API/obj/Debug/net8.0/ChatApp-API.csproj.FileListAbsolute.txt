@@ -275,3 +275,4 @@ C:\Users\tjuar\Desktop\ChatApp\ChatApp-API\ChatApp-API\obj\Debug\net8.0\refint\C
 C:\Users\tjuar\Desktop\ChatApp\ChatApp-API\ChatApp-API\obj\Debug\net8.0\ChatApp-API.pdb
 C:\Users\tjuar\Desktop\ChatApp\ChatApp-API\ChatApp-API\obj\Debug\net8.0\ChatApp-API.genruntimeconfig.cache
 C:\Users\tjuar\Desktop\ChatApp\ChatApp-API\ChatApp-API\obj\Debug\net8.0\ref\ChatApp-API.dll
+C:\Users\Usuario\Desktop\ChatApp\ChatApp-API\ChatApp-API\obj\Debug\net8.0\ChatApp-API.sourcelink.json

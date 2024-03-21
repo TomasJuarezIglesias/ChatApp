@@ -8,6 +8,11 @@ namespace ChatApp_API.Utilities
     {
         public AutoMapperProfiles()
         {
+            CreateMap<User, UserDTO>().ReverseMap();
+
+            CreateMap<CreateMessageDTO, Message>();
+
+            CreateMap<Message, MessageDTO>();
         }
     }
 }

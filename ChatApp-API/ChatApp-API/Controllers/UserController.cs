@@ -20,11 +20,13 @@ namespace ChatApp_API.Controllers
     {
         private readonly ApplicationDbContext context;
         private readonly IConfiguration configuration;
+        private readonly IMapper mapper;
 
-        public UserController(ApplicationDbContext context, IConfiguration configuration)
+        public UserController(ApplicationDbContext context, IConfiguration configuration, IMapper mapper)
         {
             this.context = context;
             this.configuration = configuration;
+            this.mapper = mapper;
         }
 
         [HttpPost("Register")]
@@ -90,6 +92,15 @@ namespace ChatApp_API.Controllers
                 UserName = userName,
                 Email = email
             }));
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<UserDTO>>> GetAll()
+        {
+            var username = HttpContext.User.Claims.Where(c => c.Type == "userName").First().Value;
+
+            var users = await context.Users.Where(u => u.UserName != username).ToListAsync();
+            return Ok(mapper.Map<List<UserDTO>>(users));
         }
 
         private ResponseAuthentication GenerateToken(User user)
