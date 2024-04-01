@@ -24,7 +24,7 @@ namespace ChatApp_API.Controllers
         }
 
         [HttpGet()]
-        public async Task<ActionResult<UserMessageDTO>> GetAll( [FromRoute] int userToInteract, [FromQuery] int Page = 1, [FromQuery] int Quantity = 50)
+        public async Task<ActionResult<UserMessageDTO>> GetAll( [FromRoute] int userToInteract, [FromQuery] int Page = 1, [FromQuery] int Limit = 50)
         {
             var userName = HttpContext.User.Claims.Where(c => c.Type == "userName").First().Value;
 
@@ -34,19 +34,21 @@ namespace ChatApp_API.Controllers
 
             if (userSendDB is null) return NotFound();
 
-            Pagination paginacion = new(Page, Quantity);
+            Pagination paginacion = new(Page, Limit);
 
             var queryable = context.Messages.AsQueryable();
 
             paginacion.Total = queryable
-                .Where(message => message.UserSenderId == userDB.Id || message.UserReceiveId == userDB.Id && message.UserSenderId == userSendDB.Id || message.UserReceiveId == userSendDB.Id)
+                .Where(message => (message.UserSenderId == userDB.Id && message.UserReceiveId == userSendDB.Id) || (message.UserSenderId == userSendDB.Id && message.UserReceiveId == userDB.Id))
                 .Count();
 
             var messages = await queryable
-                .Where(message => message.UserSenderId == userDB.Id || message.UserReceiveId == userDB.Id && message.UserSenderId == userSendDB.Id || message.UserReceiveId == userSendDB.Id)
+                .Where(message => (message.UserSenderId == userDB.Id && message.UserReceiveId == userSendDB.Id) || (message.UserSenderId == userSendDB.Id && message.UserReceiveId == userDB.Id))
                 .OrderBy(message => message.SendTime)
                 .Paginate(paginacion)
                 .ToListAsync();
+
+            paginacion.Quantity = messages.Count;
 
             return new UserMessageDTO
             {
@@ -80,6 +82,5 @@ namespace ChatApp_API.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, new { message = "Internal error occurred" });
             }
         }
-
     }
 }

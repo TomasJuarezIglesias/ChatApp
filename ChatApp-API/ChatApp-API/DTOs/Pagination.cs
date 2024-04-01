@@ -2,25 +2,26 @@
 {
     public class Pagination
     {
-        public Pagination(int page, int quantity)
+        public Pagination(int page, int limit)
         {
             Page = page;
-            Quantity = quantity;
+            Limit = limit;
         }
 
         public int Page { get; set; } = 1;
-        public int Quantity {
+        public int Quantity { get; set; }
+        private int _limit;
+        public int Limit
+        {
             get
             {
-                return _quantity;
+                return _limit;
             }
             set
             {
-                _quantity = value < Limit ? value : Limit;
+                _limit = value < 50 ? value : 50;
             }
         }
-        private int _quantity;
-        public int Limit { get; private set; } = 50;
         public int Total { get; set; }
     }
 }
